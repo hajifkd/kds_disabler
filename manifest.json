@@ -12,5 +12,8 @@
     "https://kds.kek.jp/",
     "webRequest",
     "webRequestBlocking"
-  ]
+  ],
+  "icons": {
+    "128": "icon128.png"
+  } 
 }
