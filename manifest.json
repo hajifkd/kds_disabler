@@ -1,0 +1,16 @@
+{
+  "name": "kds_disabler",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Disable the KDS stupid auth",
+  "background": {
+    "persistent": true,
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "http://kds.kek.jp/*",
+    "https://kds.kek.jp/",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
